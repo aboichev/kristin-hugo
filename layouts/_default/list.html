@@ -1,0 +1,29 @@
+{{ define "main" }}
+<main>
+<div id="vidtop-content">
+  <div class="vid-info">
+      <h1>{{ .Title | default .Site.Title }}</h1>
+      <div>
+        {{ .Content }}
+      </div>
+      {{ with .Parent }}
+      <p>
+        <a href="{{ .RelPermalink }}">Домой</a>
+      </p>
+      {{ end }}
+
+      {{ range .Sections }}
+      <p>
+        <a href="{{ .RelPermalink }}">{{.Title}}</a>    
+      </p>
+      {{ end }}
+
+      {{ range .Pages }}
+        <div>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+      {{ end }}
+  </div>
+</div>
+</main>
+{{ end }}

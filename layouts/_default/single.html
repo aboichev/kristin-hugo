@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main>
+<div id="vidtop-content">
+  <div class="vid-info">
+      <h1>{{ .Title | default .Site.Title }}</h1>
+      <div>
+        {{ .Content }}
+      </div>
+      <p>
+        <a href="{{ .CurrentSection.RelPermalink }}">Другие цыклы</a>
+      </p>
+  </div>
+</div>
+</main>
+{{ end }}
