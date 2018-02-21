@@ -1,7 +1,9 @@
 ---
-title: "Home Page"
+title: "Океан Мудрости Кристина Доброго"
 date: 2018-02-19T21:27:56-05:00
 draft: true
+youTubeVideoId: "JY3fuhYz72g"
+youTubeAudioId: "X2mA6L7qgns"
 ---
-Welcome to my home page
+Сама вечность - это творение и разрушение миров, это циклы бытия и небытия; миры возникают из пропасти абсолюта и затем исчезают в этой бездне.
 
